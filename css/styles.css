@@ -544,7 +544,7 @@ button {
      pointer-events: auto;
 
 .modal {
-  position: relative;
+  position: absolute;
   width: 408px;
   top: 50%;
   left: 50%;
