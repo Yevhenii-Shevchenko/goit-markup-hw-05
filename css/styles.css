@@ -557,6 +557,8 @@ button {
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   min-height: 584px;
   overflow: auto;
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn {
@@ -657,6 +659,10 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.review-form-comment-wrapper {
+  margin-bottom: 16px;
+}
+
 .review-form-comment {
   font-size: 12px;
   font-weight: 400;
@@ -673,7 +679,7 @@ button {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .review-form-comment::placeholder {
@@ -728,6 +734,10 @@ button {
     text-decoration-skip-ink: none;
     color: #4d5ae5;
   }
+}
+
+.review-form-checkbox-link {
+  color: #4d5ae5;
 }
 
 .review-form-send-btn {
