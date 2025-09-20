@@ -482,6 +482,8 @@
         </div>
       </div>
     </footer>
+    <!-- /Foter section -->
+
     <div class="modal-backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button">
@@ -541,25 +543,30 @@
             </div>
           </div>
           <div class="review-form-field-wrapper">
-            <label class="review-form-field-label" for="user-comment">
+            <label class="review-form-field-label" for="user-privacy">
               Comment
             </label>
             <textarea
               class="review-form-comment"
-              name="user-comment"
-              id="user-comment"
+              name="user-privacy"
+              id="user-privacy"
               placeholder="Text input"
             ></textarea>
           </div>
           <div class="review-form-checkbox-wrapper">
             <input
-              class="review-form-checkbox"
+              class="review-form-checkbox-input visually-hidden"
               id="privacy-policy"
               name="privacy-policy"
               type="checkbox"
               value="true"
             />
             <label class="review-form-checkbox-label" for="privacy-policy">
+              <span class="custom-checkbox">
+                <svg class="checkbox-box-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkmark"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
               <a class="review-form-checkbox-link" href="">Privacy Policy</a>
             </label>
